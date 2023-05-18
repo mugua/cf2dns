@@ -16,15 +16,14 @@ KEY = "o1zrmHAF"
 #CM:移动 CU:联通 CT:电信  AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
 DOMAINS = {
-    "hostxxnit.com": {"@": ["CM","CU","CT"], "shop": ["CM", "CU", "CT"], "stock": ["CM","CU","CT"]},
-    "484848.xyz": {"@": ["CM","CU","CT"], "shop": ["CM","CU","CT"]}
+    "nulled.cn": {"@": ["CM","CU","CT"], "www": ["CM", "CU", "CT"]}
 }
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
 AFFECT_NUM = 2
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2  如果使用华为云解析改成3
-DNS_SERVER = 1
+DNS_SERVER = 2
 
 #如果使用华为云解析 需要从API凭证-项目列表中获取
 REGION_HW = 'cn-east-3'
